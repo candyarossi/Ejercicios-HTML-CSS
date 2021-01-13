@@ -1,0 +1,160 @@
+﻿header {
+	background:#052150;
+	color:#FFF;
+}
+
+body{background-image:url(../images/2.png);}
+
+.main {
+	background:#1D66DF;
+	color: #fff;
+	margin-top:51px;
+}
+
+.menu {
+margin:0px 0px; 
+height: 51px;	
+background-color: #2e518b;
+position: absolute;
+z-index: 22;
+}
+
+.color1 {
+	background:#002B73;
+	color:#fff;
+	border-style:solid;
+border-width:1px;
+border-color:#052150;
+}
+
+.color2 {
+	background:#002B73;
+	color:#fff;
+border-style:solid;
+border-width:1px;
+border-color:#052150;
+}
+
+aside {
+	background:#052150;
+	color:#fff;
+
+}
+
+footer {
+	background:#052150;
+	color:#FFF;
+}
+
+
+/* menu */
+
+.menu1 ul {
+ list-style:none;
+ margin:0px;
+margin-left: 75px;
+ padding:0px;
+}
+
+/* items del menu */
+
+.menu1 ul li {
+ background-color:#2e518b;
+}
+
+/* enlaces del menu */
+
+.menu1 ul a {
+ display:block;
+ color:#fff;
+ text-decoration:none;
+ font-weight:400;
+ font-size:15px;
+ padding:10px;
+ font-family:"HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ text-transform:uppercase;
+ letter-spacing:1px;
+}
+
+/* items del menu */
+
+.menu1 ul li {
+ position:relative;
+ float:left;
+ margin:0px;
+ padding:5px;
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+.menu1 ul li:hover {
+ background:#5b78a7;
+}
+
+
+/* menu desplegable */
+
+.menu1 ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#eee;
+ padding:0;
+}
+
+/* items del menu desplegable */
+
+.menu1 ul ul li {
+ float:none;
+ width:150px
+}
+
+/* enlaces de los items del menu desplegable */
+
+.menu1 ul ul a {
+ line-height:120%;
+ padding:10px 15px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+.menu1 ul li:hover > ul {
+margin-left:0px;
+ display:block;
+}
+
+.boton2{margin-left: 80px;}
+
+.boton2 a:link{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 90px;
+	line-height: 40px;
+	background-color: #2e518b;
+	list-style: none;
+}
+
+.boton2 a:visited{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 90px;
+	line-height: 40px;
+	background-color: #2e518b;
+	list-style: none;
+}
+
+.boton2 a:hover{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 90px;
+	line-height: 40px;
+	background-color: #5b78a7;
+}
+

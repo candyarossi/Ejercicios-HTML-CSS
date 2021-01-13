@@ -1,0 +1,29 @@
+﻿header {
+	background:#74016A;
+	color:#FFF;
+}
+
+.main {
+	background:#F3BAEE;
+	color: #580051;
+}
+
+.color1 {
+	background:#580051;
+	color:#F3BAEE;
+}
+
+.color2 {
+	background:#FDDFFB;
+	color:#580051;
+}
+
+aside {
+	background:#580051;
+	color:#F3BAEE;
+}
+
+footer {
+	background:#74016A;
+	color:#FFF;
+}

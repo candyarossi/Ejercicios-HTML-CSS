@@ -1,0 +1,337 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+body{
+	background-color: #8a007e;
+	font: 20px normal verdana, sans-serif;
+	text-align: left;
+	margin:60px 40px 20px 40px;
+	color: #fff;
+}
+
+h1{
+	text-decoration-color: #FFFFFF;
+}
+
+.horizontal1 a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: orange;
+	border-radius: 50px;
+	list-style: none;
+}
+
+.horizontal1 a:visited{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: mediumvioletred;
+	border-radius: 50px;
+}
+
+.horizontal1 a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: yellow;
+	border-radius: 50px;
+}
+
+.horizontal1 a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: magenta;
+	border-radius: 50px;
+}
+
+.horizontal2 a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: orange;
+	border-radius: 25px;
+	list-style: none;
+}
+
+.horizontal2 a:visited{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: mediumvioletred;
+	border-radius: 25px;
+}
+
+.horizontal2 a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: yellow;
+	border-radius: 25px;
+}
+
+.horizontal2 a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: magenta;
+	border-radius: 25px;
+}
+
+.horizontal3 a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: orange;
+	list-style: none;
+}
+
+.horizontal3 a:visited{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: mediumvioletred;
+}
+
+.horizontal3 a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: yellow;
+}
+
+.horizontal3 a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: magenta;
+}
+
+li.horizontal1{
+	display: inline-block; margin: 5px;
+}
+
+li.horizontal2{
+	display: inline-block; margin: 5px;
+}
+
+li.horizontal3{
+	display: inline-block; margin: 5px;
+}
+
+.vertical1 a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: orange;
+	list-style: none;
+	border-radius: 50%;
+}
+
+.vertical1 a:visited{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: mediumvioletred;
+	border-radius: 50%;
+}
+
+.vertical1 a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: yellow;
+	border-radius: 50%;
+}
+
+.vertical1 a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: magenta;
+	border-radius: 50%;
+}
+
+.vertical2 a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: orange;
+	list-style: none;
+	border-radius: 10px;
+}
+
+.vertical2 a:visited{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: mediumvioletred;
+	border-radius: 10px;
+}
+
+.vertical2 a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: yellow;
+	border-radius: 10px;
+}
+
+.vertical2 a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: magenta;
+	border-radius: 10px;
+}
+
+.vertical3 a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: orange;
+	list-style: none;
+}
+
+.vertical3 a:visited{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: mediumvioletred;
+}
+
+.vertical3 a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: yellow;
+}
+
+.vertical3 a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	border:1px groove #FFF;
+	text-align: center;
+	width: 346px;
+	line-height: 40px;
+	background-color: magenta;
+}
+
+li.vertical1{
+	margin: 10px;
+	list-style: none;
+	text-align: center;
+}
+
+li.vertical2{
+	margin: 10px;
+	list-style: none;
+	text-align: center;
+}
+
+li.vertical3{
+	margin: 10px;
+	list-style: none;
+	text-align: center;
+}
+
+hr{width: 350px;}

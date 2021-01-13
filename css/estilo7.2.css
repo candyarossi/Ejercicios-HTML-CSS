@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color:#FFF; text-align: center} 
+.cgrande{width: 416px; height: 416px; border-radius: 50%; background-color: #8A007E; position: absolute; margin-top: 20%; margin-left: 50%; top: -132px; left: -208px; z-index: 10; display: inline-block}  
+.circulo1{width: 336px; height: 336px; border-radius: 50%; background-color: #FFF; position: absolute; margin-top: 60%; margin-left: 80%; top: -208px; left: -336px; z-index: 11; display: inline-block}  
+.cchica{width: 274px; height: 274px; border-radius: 50%; background-color: #8A007E; position: absolute; margin-top: 48.5%; margin-left: 71%; top: -132px; left: -208px; z-index: 12; display: inline-block} 
+.circulo2{width: 208px; height: 208px; border-radius: 50%; background-color: #FFF; position: absolute; margin-top: 88%; margin-left: 148%; top: -208px; left: -336px; z-index: 13; display: inline-block}

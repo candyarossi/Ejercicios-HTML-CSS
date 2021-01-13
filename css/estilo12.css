@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+body{
+	background-color: #8a007e;
+	font: 20px normal verdana, sans-serif;
+	text-align: left;
+	margin:60px 40px 20px 40px;
+	color: #fff;
+}
+
+h1{
+	text-decoration-color: #FFFFFF;
+}
+
+.horizontal a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: orange;
+	border-radius: 50px;
+	list-style: none;
+}
+
+.horizontal a:visited{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: mediumvioletred;
+	border-radius: 50px;
+}
+
+.horizontal a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: yellow;
+	border-radius: 50px;
+}
+
+.horizontal a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 100px;
+	line-height: 100px;
+	background-color: magenta;
+	border-radius: 50px;
+}
+
+li.horizontal{
+	display: inline-block; margin:5px;
+}
+
+.vertical a:link{
+	color: #FFF;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 365px;
+	line-height: 40px;
+	background-color: orange;
+	list-style: none;
+}
+
+.vertical a:visited{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 365px;
+	line-height: 40px;
+	background-color: mediumvioletred;
+}
+
+.vertical a:hover{
+	color: #8a007e;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 365px;
+	line-height: 40px;
+	background-color: yellow;
+}
+
+.vertical a:active{
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	width: 365px;
+	line-height: 40px;
+	background-color: magenta;
+}
+
+li.vertical{
+			margin:10px;
+	list-style: none;
+	text-align: center;
+}
+
+hr{width: 350px;}

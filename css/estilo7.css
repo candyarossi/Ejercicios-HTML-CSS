@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body {background-color:#FFF; text-align: center} 
+.iso{width: 414px; height: 214px; background-color: #000; border: 5px solid transparent; position: absolute; top: 50%; margin: -107px; left: 50%; margin-left: -207px; overflow: hidden}  /* Overflow crea una mascara que corta lo que sobresalga de la imagen */
+.rojo{width: 200px; height: 200px; background-color: #000; position: absolute; top: 7px; left: 7px; z-index: 10; display: inline-block; overflow: hidden}  /* Z-Index da un orden dentro de las capas, Display en linea y como un bloque, los elementos se ven en linea*/
+.amarillo{width: 200px; height: 200px; background-color: #FF0; position: absolute; top: 7px; right: 7px; z-index: 10; display: inline-block; overflow: hidden}  /* Z-Index da un orden dentro de las capas, Display en linea y como un bloque, los elementos se ven en linea*/
+.baston1{width: 240px; height: 24px; background-color: #F00; position: relative; z-index: 11; left: -15px; top: 40px; transform: rotate(-21deg); -moz-transform: rotate(-21deg); -o-transform: rotate(-21deg); -ms-transform: rotate(-21deg)}
+.baston2{width: 240px; height: 24px; background-color: #F00; position: relative; z-index: 11; left: -15px; top: 113px; transform: rotate(-339deg); -moz-transform: rotate(-339deg); -o-transform: rotate(-339deg); -ms-transform: rotate(-339deg)} /* 21 grados tambien funciona */
+.baston3{width: 120px; height: 24px; background-color: #F00; position: relative; z-index: 11; left: 80px; top: 39px; transform: rotate(90deg); -moz-transform: rotate(90deg); -o-transform: rotate(90deg); -ms-transform: rotate(90deg)} 
+.baston4{width: 240px; height: 26px; background-color: #000; position: relative; z-index: 11; left: -15px; top: 42px; transform: rotate(-339deg); -moz-transform: rotate(-339deg); -o-transform: rotate(-339deg); -ms-transform: rotate(-339deg)}
+.baston5{width: 240px; height: 26px; background-color: #000; position: relative; z-index: 11; left: -15px; top: 105px; transform: rotate(-21deg); -moz-transform: rotate(-21deg); -o-transform: rotate(-21deg); -ms-transform: rotate(-21deg)}
+.circulo{width: 71px; height: 71px; border-radius: 50%; background-color: #000; position: relative; top: 14px; left: -35px; z-index: 12}

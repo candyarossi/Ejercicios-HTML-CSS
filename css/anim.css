@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	animation-name: fondo; /*Cambio de colores del fondo*/
+	animation-duration: 6s; /*Duracion de la animacion en s=segundos*/
+	/*Para que dure infinitamente: animation-interacion-count: infinite; */
+	animation-direction: alternate; 
+	animation-timing-function: linear; /*Para suavisar la animacion*/
+}
+
+.iso{
+	animation-name: isologo;
+	animation-duration: 6s;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes fondo{ /*Cada color representa una carrera*/
+	0%{
+		background-color: #2659a5; /*Diseño Gráfico*/
+	}
+	10%{
+		background-color: #e5007d; /*Escenografía*/
+	}
+	20%{
+		background-color: #4ca225; /*FoBa*/
+	}
+	30%{
+		background-color: #ef7c00; /*Fotografía*/
+	}
+	40%{
+		background-color: #ae4a84; /*Medios Audiovisuales*/
+	}
+	50%{
+		background-color: #302683; /*Ilustración*/
+	}
+	60%{
+		background-color: #e30513; /*Profesorado*/
+	}
+	70%{
+		background-color: #b70e0b; /*Realizador*/
+	}
+	80%{
+		background-color: #fff; 
+	}
+	100%{
+		background-color: #fff; 
+	}
+}
+
+@keyframes isologo{
+	0%{
+		opacity: 0;
+	}
+	80%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 100;
+	}
+}
+
+.punto{
+	animation-name: punto;
+	animation-duration: 6s;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes punto{
+	0%{
+		opacity: 0;
+		width: 6px;
+		height: 6px;
+		border-radius: 50%;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -3px;
+		left: 50%;
+		margin-left: -3px;
+	}
+	10%{
+		opacity: 100;
+		width: 50px;
+		height: 50px;
+		border-radius: 50%;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -25px;
+		left: 50%;
+		margin-left: -25px;
+	}
+	15%{
+		opacity: 100;
+		width: 26px;
+		height: 26px;
+		border-radius: 50%;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -13px;
+		left: 50%;
+		margin-left: -13px;
+	}
+	20%{
+		opacity: 100;
+		width: 8px;
+		height: 8px;
+		border-radius: 50%;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -4px;
+		left: 50%;
+		margin-left: -4px;
+	}
+	30%{
+		opacity: 100;
+		width: 8px;
+		height: 8px;
+		border-radius: 0%;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -4px;
+		left: 50%;
+		margin-left: -4px;
+	}
+	40%{
+		opacity: 100;
+		width: 100%;
+		height: 8px;
+		border-radius: 0%;
+		border: 0px solid transparent;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -4px;
+		left: 0%;
+		margin-left: 0px;
+	}
+	60%{
+		opacity: 100;
+		width: 414px;
+		height: 8px;
+		border-radius: 0%;
+		border: 0px solid transparent;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -4px;
+		left: 50%;
+		margin-left: -207px;
+	}
+	80%{
+		opacity: 100;
+		width: 414px;
+		height: 214px;
+		border-radius: 0%;
+		border: 5px solid transparent;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -107px;
+		left: 50%;
+		margin-left: -207px;
+	}
+	90%{
+		opacity: 0;
+		width: 414px;
+		height: 214px;
+		border-radius: 0%;
+		border: 5px solid transparent;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -107px;
+		left: 50%;
+		margin-left: -207px;
+	}
+	100%{
+		opacity: 0;
+		width: 414px;
+		height: 214px;
+		border-radius: 0%;
+		border: 5px solid transparent;
+		background-color: #000;
+		position: absolute;
+		top: 50%;
+		margin-top: -107px;
+		left: 50%;
+		margin-left: -207px;
+	}
+}
+

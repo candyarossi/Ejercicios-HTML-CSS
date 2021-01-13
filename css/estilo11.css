@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin: 0px;  padding: 0px}/* Reseteamos valores */   
+
+h1 {font: bold 20px verdana, sans-serif; color: #8a007e}/* Establecemos jerarquìas de cabeceras */
+h2 {font: bold 14px verdana, sans-serif; color: #8a007e}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup{  display: block }/* Establecemos comportamiento elementos */
+
+body{background-image:url(../images/trama.png) ; text-align: center} /*Modulo de la trama*/
+
+#contenedor {background: transparent; width: 960px;  margin: 15px auto;  text-align: left; font: 12px verdana, sans-serif; color: black}/* Configuramos el cuerpo */
+
+#cabecera {background: #74016A;  padding: 20px; font: 24px verdana, sans-serif; color: white}/* Configuramos la cabecera */
+
+#menu {background: #FFF;  padding: 15px 15px}/* Configuramos la navegación */
+#menu li {display: inline-block;  list-style: none;  padding-left: 10px; padding-right: 30px;  font: bold 14px verdana, sans-serif; color: #8a007e}
+
+#seccion {float: left;  width: 660px;  margin: 20px}/* Configuramos la sección y columna */
+#columna {float: left;  width: 220px;  margin: 20px 0px;  padding: 20px;  background: #F3BAEE}
+
+#pie {background: #74016A; clear: both;  text-align: center;  padding: 20px;  border-top: 2px solid #F3BAEE; font: italic 14px verdana, sans-serif; color: #F3BAEE}/* Configuramos el pie */  
+
+/* Configuramos resto */
+
+article {background: #F3BAEE;  border: 1px solid #F3BAEE;  padding: 20px;  margin-bottom: 15px}
+article footer {text-align: right; font: italic 14px verdana, sans-serif; color: #8a007e}
+blockquote {text-align: left; font: 12px verdana, sans-serif; color: black}
+time {font:  11px verdana, sans-serif; color: black}
+figcaption {font:  11px verdana, sans-serif}
+
+
